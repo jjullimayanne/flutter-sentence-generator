@@ -10,17 +10,9 @@ void main() {
       decoration: BoxDecoration(
         border: Border.all(width: 3, color: Colors.white)
       ),
-      child: Row(
-        children: [
-          Text("oi"),
-          Text("oi"),
-          Text("oi")
-        ],
-       // mainAxisAlignment: MainAxisAlignment.start,
-       //mainAxisAlignment: MainAxisAlignment.end,
-       //mainAxisAlignment: MainAxisAlignment.center,
-       mainAxisAlignment: MainAxisAlignment.spaceAround,
-       crossAxisAlignment: CrossAxisAlignment.center,
+      child: Image.asset(
+        "images/foto1.jpg"
+
       ),
     ),
   ));
