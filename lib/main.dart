@@ -11,7 +11,14 @@ void main() {
         border: Border.all(width: 3, color: Colors.white)
       ),
       child: Image.asset(
-        "images/foto1.jpg"
+        "images/foto1.jpg",
+       // fit: BoxFit.contain ,
+        //fit: BoxFit.cover ,
+        // fit: BoxFit.fill,
+         //fit: BoxFit.fitHeight,
+          //fit: BoxFit.fitWidth,
+           //fit: BoxFit.none,
+            fit: BoxFit.scaleDown,
 
       ),
     ),
