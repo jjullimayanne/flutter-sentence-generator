@@ -16,7 +16,11 @@ void main() {
           Text("oi"),
           Text("oi")
         ],
-        mainAxisAlignment: MainAxisAlignment.start,
+       // mainAxisAlignment: MainAxisAlignment.start,
+       //mainAxisAlignment: MainAxisAlignment.end,
+       //mainAxisAlignment: MainAxisAlignment.center,
+       mainAxisAlignment: MainAxisAlignment.spaceAround,
+       crossAxisAlignment: CrossAxisAlignment.center,
       ),
     ),
   ));
